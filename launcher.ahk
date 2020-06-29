@@ -9,6 +9,7 @@ Gui, Add, Button, x60 y650 gmsg, Live YT Minecraft
 Gui, Show,,FirePVP Launcher
 &::
 send, §
+return
 !c::
 send, /
 Sleep, 200
