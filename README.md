@@ -1,2 +1,2 @@
 # FirePvP
-A PvP Client for minecraft bedrock written in AHK
+A PvP Client for Minecraft Bedrock written in AHK
