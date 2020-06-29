@@ -1,4 +1,4 @@
-﻿#SingleInstance Force
+#SingleInstance Force
 Gui Add, ActiveX, w980 h630 vWB,s.Explorer
 WB.Silent := True
 WB.Navigate("https://prokitpvp.wixsite.com/clientmenu")
@@ -34,10 +34,12 @@ msg:
 WB.Navigate("https://www.youtube.com/channel/UCQvWX73GQygcwXOTSf_VDVg")
 return
 Launch:
-run Mods\*.exe
-run, Mods\*.ahk
-run, Mods\*.mcpack
-run, *.ink
+Loop Files, %A_ScriptDir%\Mods\*.exe
+    Run %A_LoopFilePath%
+Loop Files, %A_ScriptDir%\Mods\*.mcpack
+    Run %A_LoopFilePath%
+Loop Files, %A_ScriptDir%\Mods\*.ahk
+    Run %A_LoopFilePath%
 FileCopy, Mods\global_resource_packs.json, Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftpe,
 return
 credit:
