@@ -40,6 +40,10 @@ Loop Files, %A_ScriptDir%\Mods\*.mcpack
     Run %A_LoopFilePath%
 Loop Files, %A_ScriptDir%\Mods\*.ahk
     Run %A_LoopFilePath%
+Loop Files, %A_ScriptDir%\BuiltInMods\*.exe
+    Run %A_LoopFilePath%
+Loop Files, %A_ScriptDir%\BuiltInMods\*.mcpack
+    Run %A_LoopFilePath%
 FileCopy, Mods\global_resource_packs.json, Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftpe,
 return
 credit:
