@@ -34,9 +34,10 @@ msg:
 WB.Navigate("https://www.youtube.com/channel/UCQvWX73GQygcwXOTSf_VDVg")
 return
 Launch:
-run Mods\Mods.mcpack
-run, Mods\Press 'Yes' to enable keystroke mod.exe
-run, Mods\ToggleSprint.ahk
+run Mods\*.exe
+run, Mods\*.ahk
+run, Mods\*.mcpack
+run, *.ink
 FileCopy, Mods\global_resource_packs.json, Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftpe,
 return
 credit:
