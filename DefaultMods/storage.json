@@ -1,0 +1,96 @@
+{
+    "mc_version": "1.16.2003.0",
+    "api": "https://fov.xroix.me/api/",
+    "features_help_url": "https://fov.xroix.me/docs/features#{}",
+    "settings_help_url": "https://fov.xroix.me/docs/settings#{}",
+    "features": {
+        "0": {
+            "available": true,
+            "offsets": [
+                56983112,
+                40,
+                304,
+                240
+            ],
+            "name": "FOV",
+            "enabled": true,
+            "key": "c",
+            "settings": {
+                "before": "80",
+                "after": "30.0"
+            },
+            "children": [
+                "1",
+                "2"
+            ]
+        },
+        "1": {
+            "available": true,
+            "offsets": [
+                57008872,
+                200,
+                3320,
+                232
+            ],
+            "name": "Hide Hand",
+            "enabled": false,
+            "key": null,
+            "settings": {
+                "before": "0",
+                "after": 1
+            },
+            "children": []
+        },
+        "2": {
+            "available": true,
+            "offsets": [
+                57008872,
+                192,
+                3152,
+                248,
+                0,
+                20
+            ],
+            "name": "Sensitivity",
+            "enabled": false,
+            "key": null,
+            "settings": {
+                "before": "50",
+                "after": 16.0
+            },
+            "children": []
+        },
+        "3": {
+            "available": true,
+            "offsets": [
+                [
+                    57014232,
+                    0,
+                    1192,
+                    24,
+                    880
+                ],
+                [
+                    57246456,
+                    8,
+                    8,
+                    504,
+                    912
+                ]
+            ],
+            "name": "Discord",
+            "enabled": true,
+            "settings": {
+                "show_server": 1,
+                "show_version": 0
+            },
+            "children": []
+        }
+    },
+    "settings": {
+        "start_minimized": true,
+        "auto_attach": true,
+        "attach_cooldown": 2000,
+        "exit_all": true
+    }
+}
